@@ -5,6 +5,9 @@
 
 /* the area that contains the gradient */
 .gradient-editor-gradient {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 /* the color stop draggable area. Should not by styled */
@@ -13,7 +16,7 @@
 
 /* the color inside a color stop */
 .gradient-editor-color {
-  border: 1px solid black;
+  border: 1px solid hsla(0, 0%, 30%, 0.8);
   border-top: 0;
 }
 .gradient-editor-color::before {
@@ -31,6 +34,9 @@
 /* the area the contains the color stops */
 .gradient-editor-colors {
   background: gray;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 /* the instruction area */
