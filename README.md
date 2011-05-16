@@ -1,12 +1,12 @@
 Gradient Editor
 ===============
 
-A gradient editor in JQuery
+A gradient editor in jQuery
 
 PLEASE CONTRIBUTE!!!
 
-I don't know jquery and my CSS skills suck so I could
-really use some help / adivce on best practices.
+I don't know jQuery and my CSS skills suck so I could
+really use some help / advice on best practices.
 
 
 Demo
@@ -27,7 +27,7 @@ Why?
 ----
 
 For me the biggest reason is because ramp textures are super important for 3D graphics
-and now that WebGL makes them accessable to anyone we need a ramp editor to let people
+and now that WebGL makes them accessible to anyone we need a ramp editor to let people
 play with ramp textures.
 
 Examples:
