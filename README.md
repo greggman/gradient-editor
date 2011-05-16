@@ -36,7 +36,8 @@ Examples:
 angle of the viewer to the surface vs the angle light to the surface. Instead of
 using that number directly, use it as a lookup into a ramp texture for much finer
 control. From just adjusting how the lighting looks in general to making interesting
-toon shaders you can do it all with a ramp texture.
+toon shaders you can do it all with a ramp texture. 
+[See this work-in-progress demo](http://webglsamples.googlecode.com/hg/toon-shading/toon-shading.html)
 
 * Similarly, instead of having light color be a constant use another ramp texture
 to have things in the back lit differently than things in the front.
