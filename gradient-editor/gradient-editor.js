@@ -127,6 +127,7 @@
           }
         }
       });
+      
       colorEditor.css({ "left" : half,
                         "top"  : 5 + options.height + options.stopHeight + "px" });
 
@@ -143,6 +144,11 @@
                     "height"  : options.height,
                     "position": "absolute",
                     "left"    : half + "px"});
+
+      colors.css({"width"   : options.width + options.stopWidth + 2,
+                  "height"  : options.stopHeight,
+                  "position": "absolute",
+                  "top"     : options.height + "px"});
                     
       var stops = []
       var css = makeCSSGradient(stops);
@@ -150,11 +156,7 @@
       canvas.height = options.height;
       var ctx = canvas.getContext("2d");
 
-      colors.css({"width"   : options.width + options.stopWidth + 2,
-                  "height"  : options.stopHeight,
-                  "position": "absolute",
-                  "top"     : options.height + "px"});
-                  
+
                   
       function addStop(position, color) {
         var stop = {
