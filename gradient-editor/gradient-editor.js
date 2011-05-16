@@ -127,7 +127,7 @@
           }
         }
       });
-      
+        
       colorEditor.css({ "left" : half,
                         "top"  : 5 + options.height + options.stopHeight + "px" });
 
