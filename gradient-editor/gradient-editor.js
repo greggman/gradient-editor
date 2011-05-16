@@ -34,7 +34,7 @@
     var defaults = {  
       width: 512,  
       height: 40,
-      stopWidth: 11,
+      stopWidth: 12,
       stopHeight: 10,
       initialColor: "#ff00ff",
       onChange: function() {},
